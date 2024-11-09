@@ -134,7 +134,7 @@ body {
   .javascript {
     @apply relative z-50 bg-no-repeat bg-top bg-cover tablet:bg-contain -mt-44 tablet:-mt-60 desktop:-mt-44 tablet:mx-8 desktop:mx-16 pt-10 tablet:pt-16 desktop:pt-24 h-[150vw] min-[300px]:h-[130vw] min-[400px]:h-[100vw] min-[500px]:h-[85vw] min-[600px]:h-[75vw] tablet:h-[60vw] desktop:max-h-[55.813rem] tablet:translate-y-32 desktop:translate-y-44;
 
-    background-image: url('../assets/bg-square.svg');
+    background-image: url('/bg-square.svg');
   }
 
   .javascript-heading {

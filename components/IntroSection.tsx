@@ -8,10 +8,10 @@ import mouse from '@/assets/mouse.svg'
 
 const IntroSection = () => {
   return (
-    <section className='hero'>
+    <section className='relative overflow-hidden z-50 tablet:mx-8 desktop:mx-16 pt-10 tablet:pt-20 desktop:pt-40 pb-56 '>
       <Container>
         <>
-          <div className='flex flex-col desktop:flex-row desktop:gap-8'>
+          <div className='flex flex-col desktop:flex-row desktop:gap-8  w-full'>
             <div className='flex flex-col desktop:basis-1/2'>
               <h1 className='hero-heading scroll-hide'>
                 Jamstack{' '}

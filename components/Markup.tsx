@@ -18,22 +18,22 @@ const MarkupSection = () => {
               collection of pre-rendered HTML pages that can be delivered
               lightning-fast over a CDN like Vercel’s Edge Network.
             </p>
-            <section className=' relative mt-40'>
+            <section className=' relative '>
               {/* for three bricks  with different direction*/}
 
               <Brick
                 svgClass='fill-endeavour'
-                wrapperClass='absolute bottom-0 brick-1st-hide delay-[1300ms] rotate-[-16deg] translate-x-[50px] translate-y-[40px] my-16'
+                wrapperClass='absolute bottom-0 brick-1st-hide delay-[1300ms] rotate-[-16deg] translate-x-[50px] translate-y-[200px] my-16'
               />
 
               <Brick
                 svgClass='fill-thunderbird'
-                wrapperClass='absolute bottom-0 brick-2nd-hide delay-[1250ms] rotate-[14deg] translate-x-[-240px] translate-y-[180px]  ' // Increased translate-y to create gap
+                wrapperClass='absolute bottom-0 brick-2nd-hide delay-[1250ms] rotate-[14deg] translate-x-[-100px] translate-y-[340px]  ' // Increased translate-y to create gap
               />
 
               <Brick
                 svgClass='fill-koromiko'
-                wrapperClass='absolute bottom-0 brick-3rd-hide delay-[1200ms] rotate-[-58deg] translate-x-[300px] translate-y-[180px]' // Further increased translate-y
+                wrapperClass='absolute bottom-0 brick-3rd-hide delay-[1200ms] rotate-[-58deg] translate-x-[250px] translate-y-[400px]' // Further increased translate-y
               />
             </section>
           </div>

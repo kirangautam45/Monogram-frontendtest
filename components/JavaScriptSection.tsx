@@ -7,7 +7,7 @@ import computer from '../assets/bg-computer.png'
 
 const JavaScriptSection: React.FC = () => {
   return (
-    <section className='javascript'>
+    <section className='bg-[url("../assets/bg-square.svg")] javascript'>
       <Container>
         <h1 className='javascript-heading scroll-hide'>JavaScript</h1>
         <p className='javascript-content text-white scroll-hide delay-[200ms]'>

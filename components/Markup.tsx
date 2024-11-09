@@ -23,7 +23,7 @@ const MarkupSection = () => {
 
               <Brick
                 svgClass='fill-endeavour'
-                wrapperClass='absolute bottom-0 brick-1st-hide delay-[1300ms] rotate-[-16deg] translate-x-[50px] translate-y-[20px] my-16'
+                wrapperClass='absolute bottom-0 brick-1st-hide delay-[1300ms] rotate-[-16deg] translate-x-[50px] translate-y-[40px] my-16'
               />
 
               <Brick

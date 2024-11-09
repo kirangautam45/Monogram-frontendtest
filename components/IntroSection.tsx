@@ -31,7 +31,10 @@ const IntroSection = () => {
               </p>
             </div>
 
-            <VisualContainer isHero={true} className='desktop:basis-1/2 ' />
+            <VisualContainer
+              isIntro={true}
+              className='desktop:basis-1/2 flex justify-end  '
+            />
           </div>
 
           <Image

@@ -7,18 +7,18 @@ import Image from 'next/image'
 
 interface Props {
   className?: string
-  isHero?: boolean
+  isIntro?: boolean
 }
 
 const VisualContainer: React.FC<Props> = ({
   className = '',
-  isHero = false,
+  isIntro = false,
 }) => {
   return (
     <div className={`art-box ${className}`}>
       <div className='art-box-group'>
         <Image
-          src={isHero ? heroLeftArt.src : markupLeftArt.src}
+          src={isIntro ? heroLeftArt.src : markupLeftArt.src}
           alt='First art'
           width={10}
           height={10}
@@ -27,7 +27,7 @@ const VisualContainer: React.FC<Props> = ({
         <Image
           width={10}
           height={10}
-          src={isHero ? heroRightArt.src : markupRightArt.src}
+          src={isIntro ? heroRightArt.src : markupRightArt.src}
           alt='Second art'
           className='art-box-image-2nd scroll-right-hide delay-[400ms]'
         />
@@ -35,13 +35,13 @@ const VisualContainer: React.FC<Props> = ({
       <div className=' absolute bottom-0 right-0 flex flex-row items-end gap-[2rem] translate-y-[8rem] translate-x-[6rem] '>
         <div
           className={`art-box-blurry-1st ${
-            isHero ? 'bg-white/40' : ''
+            isIntro ? 'bg-white/40' : ''
           } scroll-right-hide delay-[200ms]`}
         ></div>
         <div
           className={`art-box-blurry-2nd ${
-            isHero ? 'bg-white/40' : ''
-          } scroll-right-hide delay-[600ms]`}
+            isIntro ? 'bg-white/40' : ''
+          } scroll-right-hide delay-[200ms]`}
         ></div>
       </div>
     </div>

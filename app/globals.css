@@ -43,7 +43,7 @@ body {
   }
 
   .typo-small {
-    @apply  font-light text-16 tablet:text-18 desktop:text-18 text-clamp-small tracking-[0.004692rem] tablet:tracking-[0.00563rem] desktop:tracking-[0.00563rem] text-center tablet:text-left;
+    @apply font-light text-16 tablet:text-18 desktop:text-18 text-clamp-small tracking-[0.004692rem] tablet:tracking-[0.00563rem] desktop:tracking-[0.00563rem] text-center tablet:text-left;
   }
 
   .typo-code {
@@ -112,7 +112,7 @@ body {
   }
 
   .art-box-blurry-2nd {
-    @apply art-box-blurry-1st w-[17.5rem] h-[41.375rem] hidden tablet:inline-flex;
+    @apply w-[17.5rem] h-[41.375rem] hidden  rounded-68 backdrop-blur-60 tablet:inline-flex;
   }
   .footer {
     @apply bg-dark-grey;

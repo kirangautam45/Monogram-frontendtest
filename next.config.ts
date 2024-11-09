@@ -1,15 +1,13 @@
-import type { NextConfig } from 'next'
+import { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  async redirects() {
-    return [
-      {
-        source: '/:path*',
-        destination: 'https://monogram-frontendtest.vercel.app/:path*',
-        permanent: true,
-      },
-    ]
-  },
+  redirects: async () => [
+    {
+      source: '/:path*',
+      destination: 'https://monogram-frontend-test.vercel.app/:path*',
+      permanent: true,
+    },
+  ],
 }
 
 export default nextConfig

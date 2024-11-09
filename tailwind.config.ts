@@ -13,7 +13,7 @@ const config: Config = {
     },
     extend: {
       backgroundImage: {
-        'square': "url('/bg-square.svg')",
+        square: "url('/assets/bg-square.svg')",
       },
       colors: {
         cloud: '#E8E8E8', // background lines

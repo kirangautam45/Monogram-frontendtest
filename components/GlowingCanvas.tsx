@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 import React from 'react'
-import Container from './Container'
 import Image from 'next/image'
 import circle from '@/assets/circle.png'
 const GlowingCanvas = () => {

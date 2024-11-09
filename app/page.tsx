@@ -1,14 +1,15 @@
 'use client'
-import Api from '@/components/Api'
+import React from 'react'
+
+import ApiSection from '@/components/ApiSection'
 import Footer from '@/components/Footer'
-import GlowingCanvas from '@/components/GlowingCanvas'
+import RotatingCircle from '@/components/RotatingCircle'
 import IntroSection from '@/components/IntroSection'
 import MarkupSection from '@/components/Markup'
 import VerticalDivider from '@/components/VerticalDivider'
 import ScoreSummary from '../components/ScoreSummary'
 import LogoSection from '@/components/Logo'
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver'
-import React from 'react'
 
 const JavaScriptSection = React.lazy(
   () => import('@/components/JavaScriptSection')
@@ -30,8 +31,8 @@ export default function Home() {
       <IntroSection />
       <JavaScriptSection />
       <LogoSection />
-      <Api />
-      <GlowingCanvas />
+      <ApiSection />
+      <RotatingCircle />
       <MarkupSection />
       <ScoreSummary />
       <Footer />

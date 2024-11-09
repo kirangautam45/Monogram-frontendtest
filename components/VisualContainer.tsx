@@ -22,6 +22,7 @@ const VisualContainer: React.FC<Props> = ({
           alt='First art'
           width={10}
           height={10}
+          loading='lazy'
           className='art-box-image-1st scroll-right-hide'
         />
         <Image
@@ -29,6 +30,7 @@ const VisualContainer: React.FC<Props> = ({
           height={10}
           src={isIntro ? heroRightArt.src : markupRightArt.src}
           alt='Second art'
+          loading='lazy'
           className='art-box-image-2nd scroll-right-hide delay-[400ms]'
         />
       </div>

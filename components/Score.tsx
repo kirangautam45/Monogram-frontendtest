@@ -24,6 +24,7 @@ const Score: React.FC<ScoreProps> = ({
         alt='Score ellipse'
         className={cn('absolute h-full w-auto', imgClass)} // Use cn here for imgClass
         layout='intrinsic'
+        loading='lazy'
       />
       <div className={cn('typo-score score-shadow', scoreClass)}>
         {children}

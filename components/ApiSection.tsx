@@ -1,6 +1,6 @@
 import Container from './Container'
 
-const Api = () => {
+const ApiSection = () => {
   return (
     <>
       <section className='bg-dark-grey pb-[50%] '>
@@ -35,4 +35,4 @@ const Api = () => {
   )
 }
 
-export default Api
+export default ApiSection

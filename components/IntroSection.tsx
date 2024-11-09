@@ -43,6 +43,7 @@ const IntroSection = () => {
             width={80} // You can adjust these sizes as necessary
             height={37}
             className='hero-arrow'
+            loading='lazy'
           />
           <div className='mouse-wrapper'>
             <Image
@@ -50,6 +51,7 @@ const IntroSection = () => {
               width={36}
               height={37}
               alt='Mouse'
+              loading='lazy'
               className='animate-bounce-rotate-smooth'
             />
           </div>

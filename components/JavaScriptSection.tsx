@@ -22,6 +22,7 @@ const JavaScriptSection: React.FC = () => {
               width={804}
               height={808}
               quality={50}
+              loading='lazy'
               alt='Retro computer'
               className='computer-image'
             />
@@ -106,7 +107,12 @@ const JavaScriptSection: React.FC = () => {
           </div>
         </div>
 
-        <Image src={arrow} alt='Arrow' className='computer-arrow' />
+        <Image
+          src={arrow}
+          alt='Arrow'
+          className='computer-arrow'
+          loading='lazy'
+        />
       </Container>
     </section>
   )

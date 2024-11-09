@@ -43,7 +43,7 @@ body {
   }
 
   .typo-small {
-    @apply text-boulder font-light text-16 tablet:text-18 desktop:text-18 text-clamp-small tracking-[0.004692rem] tablet:tracking-[0.00563rem] desktop:tracking-[0.00563rem] text-center tablet:text-left;
+    @apply  font-light text-16 tablet:text-18 desktop:text-18 text-clamp-small tracking-[0.004692rem] tablet:tracking-[0.00563rem] desktop:tracking-[0.00563rem] text-center tablet:text-left;
   }
 
   .typo-code {
@@ -76,7 +76,7 @@ body {
   }
 
   .hero-content {
-    @apply typo-small mt-7 tablet:mt-9 desktop:mt-11 mx-auto tablet:ml-10 tablet:mr-0  desktop:ml-14 max-w-[34.3125rem] desktop:max-w-[25.3125rem] min-[1400px]:max-w-[34.3125rem];
+    @apply typo-small text-boulder mt-7 tablet:mt-9 desktop:mt-11 mx-auto tablet:ml-10 tablet:mr-0  desktop:ml-14 max-w-[34.3125rem] desktop:max-w-[25.3125rem] min-[1400px]:max-w-[34.3125rem];
   }
 
   .hero-arrow {

@@ -9,8 +9,8 @@ const JavaScriptSection: React.FC = () => {
   return (
     <section className='javascript'>
       <Container>
-        <h2 className='javascript-heading scroll-hide'>JavaScript</h2>
-        <p className='javascript-content scroll-hide delay-[200ms]'>
+        <h1 className='javascript-heading scroll-hide'>JavaScript</h1>
+        <p className='javascript-content text-white scroll-hide delay-[200ms]'>
           Statically generated pages are brought to life with client-side
           JavaScript libraries and frameworks, such as Algolia and Next.js.
         </p>

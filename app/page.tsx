@@ -3,15 +3,16 @@ import Api from '@/components/Api'
 import Footer from '@/components/Footer'
 import GlowingCanvas from '@/components/GlowingCanvas'
 import IntroSection from '@/components/IntroSection'
-import JavaScriptSection from '@/components/JavaScriptSection'
 import MarkupSection from '@/components/Markup'
 import VerticalDivider from '@/components/VerticalDivider'
 import ScoreSummary from '../components/ScoreSummary'
 import LogoSection from '@/components/Logo'
 import { useIntersectionObserver } from '@/hooks/useIntersectionObserver'
+import React from 'react'
 
-
-
+const JavaScriptSection = React.lazy(
+  () => import('@/components/JavaScriptSection')
+)
 
 export default function Home() {
   useIntersectionObserver('scroll-hide', 'scroll-show')

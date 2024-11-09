@@ -12,6 +12,9 @@ const config: Config = {
       desktop: '1280px',
     },
     extend: {
+      backgroundImage: {
+        'square': "url('/bg-square.svg')",
+      },
       colors: {
         cloud: '#E8E8E8', // background lines
         'dark-grey': '#151515', // heading 1

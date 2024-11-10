@@ -3,7 +3,7 @@ import Container from './Container'
 const ApiSection = () => {
   return (
     <>
-      <section className='bg-dark-grey pb-[50%] '>
+      <section className='bg-dark-grey pb-[35%] '>
         <Container>
           <h1 className=' h1 text-white text-center relative z-50 scroll-hide '>
             API

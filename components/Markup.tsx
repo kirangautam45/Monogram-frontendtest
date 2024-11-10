@@ -18,7 +18,7 @@ const MarkupSection = () => {
               collection of pre-rendered HTML pages that can be delivered
               lightning-fast over a CDN like Vercel’s Edge Network.
             </p>
-            <section className=' relative '>
+            <section className=' relative hidden desktop:flex'>
               {/* for three bricks  with different direction*/}
 
               <Brick

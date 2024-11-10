@@ -96,7 +96,7 @@ body {
   }
 
   .art-box-image-1st {
-    @apply w-[17.5rem] h-[39.3215rem] mt-7 tablet:mt-40;
+    @apply w-[17.5rem] h-[39.3215rem] mt-7 tablet:mt-40 ;
   }
 
   .art-box-image-2nd {
@@ -108,7 +108,7 @@ body {
   }
 
   .art-box-blurry-2nd {
-    @apply w-[17.5rem] h-[41.375rem]  rounded-68 backdrop-blur-60;
+    @apply w-[17.5rem] h-[41.375rem] hidden tablet:inline-flex  rounded-68 backdrop-blur-60;
   }
   .footer {
     @apply bg-dark-grey;

@@ -66,8 +66,8 @@ const LogoSection: React.FC = () => {
               <Image
                 src={logo.src}
                 alt={logo.alt}
-                width={logo.width || 100} // Fallback if width is not provided
-                height={logo.height || 100} // Fallback if height is not provided
+                width={logo.width } // Fallback if width is not provided
+                height={logo.height} // Fallback if height is not provided
                 className={logo.className}
                 loading='lazy'
               />

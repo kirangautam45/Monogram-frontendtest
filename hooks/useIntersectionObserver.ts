@@ -10,6 +10,8 @@ export const useIntersectionObserver = (
   toggleClass: string
 ): void => {
   useEffect(() => {
+    if (typeof window === 'undefined') return
+
     const observer = new IntersectionObserver((entries) => {
       entries.forEach((entry) => {
         if (entry.isIntersecting) {
